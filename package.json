@@ -1,0 +1,19 @@
+{
+  "name": "glavstroy_visual-regression-testing-with-cypress-10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vladimir Shalyapin",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.1.0",
+    "cypress-image-diff-js": "^1.22.0"
+  },
+  "blockHosts": [
+    "*.google-analytics.com",
+    "*.yandex.ru"
+  ]
+}

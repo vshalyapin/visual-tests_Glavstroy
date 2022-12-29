@@ -1,0 +1,3 @@
+// cy.get('.inner_size').compareSnapshot('menu-burger', { limit: 5, delay: 1000 }) // делаем снэпшот меню-бургер
+
+.scrollIntoView({ easing: 'linear' })
