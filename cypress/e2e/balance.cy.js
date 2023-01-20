@@ -18,7 +18,7 @@ describe('balance', () => {
   it('Menu-burger', () => {    
     cy.visit('https://get-balance.ru/')
     cy.get('.mb').click() // открываем меню-бургер
-    cy.wait(1000) // ожидаем 1 сек.
+    cy.wait(3000) // ожидаем 3 сек.
 
     cy.get('.menu_content').compareSnapshot('menu-burger') // делаем снэпшот меню-бургер
   })
